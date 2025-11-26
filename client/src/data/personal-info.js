@@ -9,8 +9,8 @@ export const personalInfo = {
   availability: 'Open to opportunities',
   resume: '/assets/resume.pdf', // TODO: Add resume file
   social: {
-    github: 'https://github.com/ET5008', // TODO: Update with actual GitHub
-    linkedin: 'https://www.linkedin.com/in/ethan-tran-24713a266/', // TODO: Update with actual LinkedIn
+    github: 'https://github.com/ET5008', 
+    linkedin: 'https://www.linkedin.com/in/ethan-tran-24713a266/',
     email: 'mailto:tran.ethan.000@gmail.com'
   },
   image: '/assets/profile.jpg', // TODO: Add profile image

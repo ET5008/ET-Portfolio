@@ -11,27 +11,22 @@ export default function Footer() {
     <footer className="bg-primary text-white py-6 mt-auto">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-          {/* Creator Info */}
-          <div className="text-center md:text-left">
-            <p className="text-lg">
-              Created and designed by {personalInfo.name}
-            </p>
+          {/* Copyright */}
+          <div className="text-center text-sm opacity-75 md:text-left">
+            <p>&copy; {new Date().getFullYear()} {personalInfo.name}. All rights reserved.</p>
           </div>
-
           {/* Version Info */}
           {currentVersion && (
-            <div className="text-center md:text-right">
+            <div className="text-center md:text-right flex flex-row text-sm space-x-3 opacity-90">
+              <a href="" className='hover:underline'>Extras</a>
               <p className="text-sm opacity-90">
-                Version {currentVersion.version} - {currentVersion.name}
+                Version {currentVersion.version}
               </p>
             </div>
           )}
         </div>
-
-        {/* Copyright */}
-        <div className="text-center mt-4 text-sm opacity-75">
-          <p>&copy; {new Date().getFullYear()} {personalInfo.name}. All rights reserved.</p>
-        </div>
+        
+        
       </div>
     </footer>
   );
