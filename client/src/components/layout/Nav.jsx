@@ -1,12 +1,13 @@
 import MenuIcon from "@mui/icons-material/Menu";
+import { Link } from "react-router";
 
 export default function Nav() {
   return (
     <nav className="fixed top-0 w-[100vw] shadow-lg bg-background">
       <div className="flex justify-around text-text p-4 items-center">
-        <a href="" className="text-3xl">
+        <Link to="/" className="text-3xl">
           Ethan Tran
-        </a>
+        </Link>
         <div className="space-x-6 text-2xl hidden lg:inline md:inline">
           <a href="#hero">Home</a>
           <a href="#about">About Me</a>
@@ -19,9 +20,9 @@ export default function Nav() {
         >
           Contact
         </a>
-        <a href="" className="inline md:hidden">
+        <Link to="/" className="inline md:hidden">
           <MenuIcon sx={{ fontSize: 24 }} />
-        </a>
+        </Link>
       </div>
     </nav>
   );

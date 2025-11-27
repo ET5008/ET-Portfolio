@@ -1,3 +1,4 @@
+import { Link } from 'react-router';
 import { personalInfo } from '../../data/personal-info';
 import { versions } from '../../data/versions';
 
@@ -18,15 +19,15 @@ export default function Footer() {
           {/* Version Info */}
           {currentVersion && (
             <div className="text-center md:text-right flex flex-row text-sm space-x-3 opacity-90">
-              <a href="" className='hover:underline'>Extras</a>
+              <Link to="/extras" className='hover:underline'>Extras</Link>
               <p className="text-sm opacity-90">
                 Version {currentVersion.version}
               </p>
             </div>
           )}
         </div>
-        
-        
+
+
       </div>
     </footer>
   );
