@@ -1,41 +1,19 @@
-import { motion } from 'framer-motion';
 import Layout from '../components/layout/Layout';
-import { personalInfo } from '../data/personal-info';
-import Button from '../components/ui/Button';
+import Hero from '../components/sections/Extras-Hero';
+import About from '../components/sections/About';
+import Work from '../components/sections/Work';
+import Contact from '../components/sections/Contact';
 
-export default function Extras() {
+/**
+ * Home page component - Portfolio V2.0
+ * Refactored to use Layout and section components with separated data layer
+ */
+function Home() {
   return (
     <Layout>
-      <section
-        id="hero"
-        className="h-[90vh] flex justify-center items-center flex-col px-4"
-      >
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
-          className="text-center max-w-4xl"
-        >
-          <h1 className="text-4xl md:text-5xl lg:text-6xl text-text font-bold mb-6">
-            Fun stuff Ethan made in his free time
-          </h1>
-
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.6, delay: 0.4 }}
-          >
-            {/* <Button
-              href="/#about"
-              variant="primary"
-              size="lg"
-              className="inline-block"
-            >
-              Learn More
-            </Button> */}
-          </motion.div>
-        </motion.div>
-      </section>
+      <Hero />
     </Layout>
   );
 }
+
+export default Home;

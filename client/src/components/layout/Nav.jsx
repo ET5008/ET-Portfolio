@@ -9,7 +9,7 @@ export default function Nav() {
           Ethan Tran
         </Link>
         <div className="space-x-6 text-2xl hidden lg:inline md:inline">
-          <a href="#hero">Home</a>
+          <a href="/">Home</a>
           <a href="#about">About Me</a>
           <a href="#work">My Work</a>
           {/* <a href="">Services</a> */}
