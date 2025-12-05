@@ -1,12 +1,12 @@
 import { Link } from 'react-router';
 import { personalInfo } from '../../data/personal-info';
-import { versions } from '../../data/versions';
+import { useVersion } from '../../context/VersionContext';
 
 /**
  * Footer component with creator info and version indicator
  */
 export default function Footer() {
-  const currentVersion = versions.find(v => v.isCurrent);
+  const { currentVersionObj } = useVersion();
 
   return (
     <footer className="bg-primary text-white py-6 mt-auto">
@@ -17,12 +17,12 @@ export default function Footer() {
             <p>&copy; {new Date().getFullYear()} {personalInfo.name}. All rights reserved.</p>
           </div>
           {/* Version Info */}
-          {currentVersion && (
+          {currentVersionObj && (
             <div className="text-center md:text-right flex flex-row text-sm space-x-3 opacity-90">
               <Link to="/extras" className='hover:underline'>Extras</Link>
-              <p className="text-sm opacity-90">
-                Version {currentVersion.version}
-              </p>
+              <Link to="/version-history" className='hover:underline'>
+                Portfolio {currentVersionObj.name} · v{currentVersionObj.version}
+              </Link>
             </div>
           )}
         </div>

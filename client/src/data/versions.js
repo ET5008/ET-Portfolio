@@ -35,7 +35,7 @@ export const versions = [
       'Responsive navigation'
     ],
     isCurrent: false,
-    screenshot: '/assets/version-screenshots/v1.0.png', // TODO: Add V1 screenshot before refactoring
-    demoUrl: '/versions/v1.0' // Will be archived version
+    screenshot: '/assets/version-screenshots/v1.0.png', // TODO: Add V1 screenshot
+    demoUrl: null // Component-based switching
   }
 ];
