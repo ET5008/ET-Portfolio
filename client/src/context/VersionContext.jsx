@@ -11,9 +11,9 @@ export function VersionProvider({ children }) {
   // Core version state with localStorage persistence
   const [currentVersion, setCurrentVersionState] = useState(() => {
     if (typeof window !== 'undefined') {
-      return localStorage.getItem('portfolio-version') || 'v2.0';
+      return localStorage.getItem('portfolio-version') || versions.find(version => version.newest)?.id;
     }
-    return 'v2.0';
+    return versions.find(version => version.newest)?.id;
   });
 
   // Modal state management

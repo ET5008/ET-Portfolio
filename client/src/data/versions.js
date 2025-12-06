@@ -19,7 +19,8 @@ export const versions = [
     ],
     isCurrent: true,
     screenshot: '/assets/version-screenshots/v2.0.png', // TODO: Add screenshot
-    demoUrl: null // Current version
+    demoUrl: null, // Current version
+    newest: true
   },
   {
     id: 'v1.0',
@@ -36,6 +37,7 @@ export const versions = [
     ],
     isCurrent: false,
     screenshot: '/assets/version-screenshots/v1.0.png', // TODO: Add V1 screenshot
-    demoUrl: null // Component-based switching
+    demoUrl: null, // Component-based switching
+    newest: false
   }
 ];
