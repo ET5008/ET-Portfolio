@@ -4,7 +4,7 @@ export const versions = [
     id: 'v2.0',
     version: '2.0.0',
     date: '2025-11',
-    name: 'Number 2',
+    name: 'Version 2',
     description: 'Complete refactor with improved architecture and version history feature',
     techStack: ['React 19', 'Tailwind 4', 'Vite 7', 'Material-UI 7'],
     features: [
@@ -26,7 +26,7 @@ export const versions = [
     id: 'v1.0',
     version: '1.0.0',
     date: '2025-10',
-    name: 'The Beginning',
+    name: 'Version 1',
     description: 'Initial portfolio launch with basic structure',
     techStack: ['React 19', 'Tailwind 4', 'MUI 7'],
     features: [

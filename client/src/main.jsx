@@ -2,10 +2,8 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router'
 import './index.css'
-import Extras from './pages/Extras.jsx'
-import VersionHistory from './pages/VersionHistory.jsx'
-import VersionRouter from './components/routing/VersionRouter.jsx'
-import { VersionProvider } from './context/VersionContext.jsx'
+import { Extras, VersionHistory } from './versions/v2'
+import { VersionRouter, VersionProvider } from './core'
 
 const router = createBrowserRouter([
   {
