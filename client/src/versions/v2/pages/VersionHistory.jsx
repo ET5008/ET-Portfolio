@@ -3,7 +3,7 @@ import clsx from 'clsx';
 import { Link } from 'react-router';
 import Layout from '../components/layout/Layout';
 import Button from '../components/ui/Button';
-import useVersionHistory from '../hooks/useVersionHistory';
+import useVersionHistory from '@core/hooks/useVersionHistory';
 
 /**
  * VersionHistory page - Dedicated page showcasing portfolio evolution

@@ -1,5 +1,5 @@
-import { Nav, Footer } from '../../../shared';
-import { VersionBanner, VersionSwitcher, VersionTimeline, VersionPreview } from '../..';
+import { Nav, Footer } from '@shared';
+import { VersionBanner, VersionSwitcher, VersionTimeline, VersionPreview } from '@v2';
 
 /**
  * Layout wrapper component that includes Nav, Footer, and version features

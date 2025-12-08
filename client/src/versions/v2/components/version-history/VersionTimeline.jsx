@@ -1,8 +1,8 @@
 import { motion } from 'framer-motion';
 import clsx from 'clsx';
-import { useVersion } from '../../context/VersionContext';
-import Modal from '../ui/Modal';
-import Button from '../ui/Button';
+import { useVersion } from '@core';
+import Modal from '@shared';
+import Button from '@shared';
 
 /**
  * VersionTimeline - Interactive timeline showing portfolio version history

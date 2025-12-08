@@ -1,7 +1,7 @@
-import { useVersion } from '../context/VersionContext';
+import { useVersion } from '@core';
 import { AnimatePresence, motion } from 'framer-motion';
-import { Home } from '../../versions/v2';
-import { HomeV1 } from '../../versions/v1';
+import { Home } from '@v2';
+import { HomeV1 } from '@v1';
 
 /**
  * VersionRouter - Conditionally renders portfolio versions

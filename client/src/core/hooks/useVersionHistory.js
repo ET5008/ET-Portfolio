@@ -1,5 +1,5 @@
 import { useMemo } from 'react';
-import { useVersion } from '../context/VersionContext';
+import { useVersion } from '@core';
 
 /**
  * useVersionHistory - Custom hook for version history management

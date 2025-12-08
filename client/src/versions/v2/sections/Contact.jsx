@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { personalInfo } from '../../data/personal-info';
+import { personalInfo } from '@data/personal-info';
 import Card from '../ui/Card';
 import emailIcon from '../../assets/icons/email.svg';
 import githubIcon from '../../assets/icons/github.svg';

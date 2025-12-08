@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { personalInfo } from '../../data/personal-info';
+import { personalInfo } from '@data/personal-info';
 import Button from '../ui/Button';
 
 /**

@@ -1,6 +1,6 @@
 import { Link } from 'react-router';
-import { personalInfo } from '../../../../data/personal-info';
-import { useVersion } from '../../../../core/context/VersionContext';
+import { personalInfo } from '@data/personal-info';
+import { useVersion } from '@core';
 
 /**
  * Footer component with creator info and version indicator

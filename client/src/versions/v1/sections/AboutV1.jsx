@@ -1,7 +1,7 @@
 // Portfolio V1.0 - Preserved Version
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { personalInfo } from '../../../data/personal-info';
+import { personalInfo } from '@data/personal-info';
 
 /**
  * About section component - V1.0

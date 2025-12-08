@@ -1,7 +1,7 @@
 // Portfolio V1.0 - Preserved Version
 import { motion } from 'framer-motion';
-import { personalInfo } from '../../../data/personal-info';
-import Button from '../../../components/ui/Button';
+import { personalInfo } from '@data/personal-info';
+import { Button } from '@shared';
 
 /**
  * Hero section component - V1.0

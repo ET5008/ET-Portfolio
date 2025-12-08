@@ -1,5 +1,5 @@
 import Layout from '../components/layout/Layout';
-import Hero from '../components/sections/Extras-Hero';
+import Hero from '../sections/Extras-Hero';
 import ExtrasGrid from '../components/extras/ExtrasGrid';
 
 /**

@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { extraFunFeatures } from '../../data/extra-fun-features';
+import { extraFunFeatures } from '../../../../data/extra-fun-features';
 import ExtrasCard from './ExtrasCard';
 
 /**

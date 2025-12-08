@@ -1,8 +1,8 @@
 // Portfolio V1.0 - Preserved Version
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { personalInfo } from '../../../data/personal-info';
-import Card from '../../../components/ui/Card';
+import { personalInfo } from '@data/personal-info';
+import { Card } from '@shared';
 import emailIcon from '../../../assets/icons/email.svg';
 import githubIcon from '../../../assets/icons/github.svg';
 import linkedInIcon from '../../../assets/icons/linkedIn.svg';

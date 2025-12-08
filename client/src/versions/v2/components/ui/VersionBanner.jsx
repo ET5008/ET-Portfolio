@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import InfoIcon from '@mui/icons-material/Info';
 import CloseIcon from '@mui/icons-material/Close';
-import useVersionHistory from '../../hooks/useVersionHistory';
+import useVersionHistory from '@core/hooks/useVersionHistory';
 import Button from './Button';
 
 /**

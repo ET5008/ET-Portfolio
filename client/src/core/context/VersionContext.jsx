@@ -1,5 +1,5 @@
 import { createContext, useContext, useState, useEffect } from 'react';
-import { versions } from '../data/versions';
+import { versions } from '@data/versions';
 
 const VersionContext = createContext(null);
 

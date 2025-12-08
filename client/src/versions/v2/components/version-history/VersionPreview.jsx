@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
-import { useVersion } from '../../context/VersionContext';
-import Modal from '../ui/Modal';
-import Button from '../ui/Button';
+import { useVersion } from '@core';
+import Modal from '@shared';
+import Button from '@shared';
 
 /**
  * VersionPreview - Detailed preview modal for a specific portfolio version

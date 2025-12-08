@@ -1,5 +1,4 @@
-import Card from '../ui/Card';
-import Button from '../ui/Button';
+import { Card, Button } from '@shared';
 
 /**
  * ExtrasCard component to display individual extra fun projects

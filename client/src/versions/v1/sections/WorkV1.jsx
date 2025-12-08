@@ -1,8 +1,8 @@
 // Portfolio V1.0 - Preserved Version
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { projects } from '../../../data/projects';
-import ProjectCard from '../../../components/projects/ProjectCard';
+import { projects } from '@data/projects';
+import ProjectCard from '@v2/components/projects/ProjectCard';
 
 /**
  * Work section component displaying project showcase - V1.0

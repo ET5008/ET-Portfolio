@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import HistoryIcon from '@mui/icons-material/History';
-import { useVersion } from '../../context/VersionContext';
+import { useVersion } from '@core';
 
 /**
  * VersionSwitcher - Floating action button for accessing version history
