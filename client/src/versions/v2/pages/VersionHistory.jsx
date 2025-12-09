@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import clsx from 'clsx';
 import { Link } from 'react-router';
 import Layout from '../components/layout/Layout';
-import Button from '../components/ui/Button';
+import {Button} from '@shared';
 import useVersionHistory from '@core/hooks/useVersionHistory';
 
 /**

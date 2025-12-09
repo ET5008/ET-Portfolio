@@ -1,10 +1,10 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { personalInfo } from '@data/personal-info';
-import Card from '../ui/Card';
-import emailIcon from '../../assets/icons/email.svg';
-import githubIcon from '../../assets/icons/github.svg';
-import linkedInIcon from '../../assets/icons/linkedIn.svg';
+import {Card} from '@shared';
+import emailIcon from '../../../assets/icons/email.svg';
+import githubIcon from '../../../assets/icons/github.svg';
+import linkedInIcon from '../../../assets/icons/linkedIn.svg';
 
 /**
  * Contact section component

@@ -1,5 +1,5 @@
-import Card from '@shared';
-import Button from '@shared';
+import {Card} from '@shared';
+import {Button} from '@shared';
 
 /**
  * ProjectCard component to display individual project information

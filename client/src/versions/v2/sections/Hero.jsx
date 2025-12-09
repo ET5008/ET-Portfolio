@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { personalInfo } from '@data/personal-info';
-import Button from '../ui/Button';
+import {Button} from '@shared';
 
 /**
  * Hero section component

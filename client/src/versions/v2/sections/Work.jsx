@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { projects } from '@data/projects';
-import ProjectCard from '../projects/ProjectCard';
+import ProjectCard from '../components/projects/ProjectCard';
 
 /**
  * Work section component displaying project showcase

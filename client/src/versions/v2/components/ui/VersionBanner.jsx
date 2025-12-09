@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import InfoIcon from '@mui/icons-material/Info';
 import CloseIcon from '@mui/icons-material/Close';
 import useVersionHistory from '@core/hooks/useVersionHistory';
-import Button from './Button';
+import {Button} from '@shared';
 
 /**
  * VersionBanner - Warning banner shown when viewing a non-current version
