@@ -19,8 +19,7 @@ export default function VersionRouter() {
         exit={{ opacity: 0, scale: 0.98 }}
         transition={{ duration: 0.5, ease: 'easeInOut' }}
       >
-        {/* {currentVersion === 'v1.0' ? <HomeV1 /> : <Home />} */}
-        {<Home />}
+        {currentVersion === 'v1.0' ? <HomeV1 /> : <Home />}
       </motion.div>
     </AnimatePresence>
   );

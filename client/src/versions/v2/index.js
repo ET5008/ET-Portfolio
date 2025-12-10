@@ -14,12 +14,10 @@ export { default as ExtrasHero } from './sections/Extras-Hero';
 
 // UI Components
 export { default as VersionSwitcher } from './components/ui/VersionSwitcher';
-export { default as VersionBanner } from './components/ui/VersionBanner';
 
 // Version History Components
 export { default as VersionTimeline } from './components/version-history/VersionTimeline';
 export { default as VersionPreview } from './components/version-history/VersionPreview';
-export { default as VersionSelector } from './components/version-history/VersionSelector';
 
 // Project Components
 export { default as ProjectCard } from './components/projects/ProjectCard';
