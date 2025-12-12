@@ -3,7 +3,7 @@ import { Link } from "react-router";
 
 export default function Nav() {
   return (
-    <nav className="fixed top-0 w-[100vw] shadow-lg bg-background">
+    <nav className="fixed top-0 w-[100vw] shadow-lg bg-background z-10">
       <div className="flex justify-around text-text p-4 items-center">
         <Link to="/" className="text-3xl">
           Ethan Tran

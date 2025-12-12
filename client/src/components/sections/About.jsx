@@ -1,6 +1,6 @@
-import { motion } from 'framer-motion';
-import { useInView } from 'react-intersection-observer';
-import { personalInfo } from '../../data/personal-info';
+import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+import { personalInfo } from "../../data/personal-info";
 
 /**
  * About section component
@@ -25,14 +25,16 @@ export default function About() {
       >
         {/* Profile Image Placeholder */}
         {personalInfo.image && (
-          <div className="flex justify-center mb-8">
-            <img
-              src={personalInfo.image}
-              alt={personalInfo.name}
-              className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover shadow-lg"
-            />
-          </div>
-        )}
+  <div className="flex justify-center mb-8">
+    <div className="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden">
+      <img
+        src={'/src/assets/images/profile.jpg'}
+        alt={personalInfo.name}
+        className="w-[170%] h-[160%] -mt-[15%] object-cover object-top shadow-lg"
+      />
+    </div>
+  </div>
+)}
 
         <h2 className="text-3xl md:text-4xl lg:text-5xl text-text font-bold text-center mb-6">
           About Me

@@ -13,6 +13,6 @@ export const personalInfo = {
     linkedin: 'https://www.linkedin.com/in/ethan-tran-24713a266/',
     email: 'mailto:tran.ethan.000@gmail.com'
   },
-  image: '/assets/profile.jpg', // TODO: Add profile image
+  image: '../../assets/images/profile.jpg', // TODO: Add profile image
   contactMessage: 'Feel free to follow all my socials and reach out!'
 };
