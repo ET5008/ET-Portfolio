@@ -22,13 +22,9 @@ export default function ProjectCard({ project }) {
       {thumbnail && (
         <div className="mb-4 rounded-lg overflow-hidden bg-gray-100 h-48 flex items-center justify-center">
           <img
-            src={thumbnail}
+            src={thumbnail ? thumbnail : ""}
             alt={title}
-            className="w-full h-full object-cover"
-            onError={(e) => {
-              // Fallback if image doesn't exist
-              e.target.style.display = 'none';
-            }}
+            className={`w-full h-full object-cover z-9 ${thumbnail ? thumbnail : 'hidden'}`   }         
           />
           {/* Placeholder if no image */}
           <div className="absolute text-gray-400 text-sm">
