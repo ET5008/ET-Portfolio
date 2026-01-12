@@ -28,7 +28,7 @@ export default function Work() {
           My Work
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="flex justify-center">
           {projects.map((project, index) => (
             <motion.div
               key={project.id}

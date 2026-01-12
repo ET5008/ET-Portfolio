@@ -7,12 +7,12 @@ export const personalInfo = {
   location: 'UC Berkeley',
   email: 'tran.ethan.000@gmail.com',
   availability: 'Open to opportunities',
-  resume: '/assets/resume.pdf', // TODO: Add resume file
+  resume: '/assets/resume.pdf', 
   social: {
     github: 'https://github.com/ET5008', 
     linkedin: 'https://www.linkedin.com/in/ethan-tran-24713a266/',
     email: 'mailto:tran.ethan.000@gmail.com'
   },
-  image: '../../assets/images/profile.jpg', // TODO: Add profile image
+  image: '../../assets/images/profile.jpg', 
   contactMessage: 'Feel free to follow all my socials and reach out!'
 };

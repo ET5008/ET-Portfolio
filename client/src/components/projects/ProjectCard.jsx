@@ -17,7 +17,7 @@ export default function ProjectCard({ project }) {
   } = project;
 
   return (
-    <Card hoverable className="p-6 flex flex-col h-full">
+    <Card hoverable className="p-6 flex flex-col h-full w-[35vw]">
       {/* Project Thumbnail */}
       {thumbnail && (
         <div className="mb-4 rounded-lg overflow-hidden bg-gray-100 h-48 flex items-center justify-center">
