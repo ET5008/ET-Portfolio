@@ -1,7 +1,11 @@
 import MenuIcon from "@mui/icons-material/Menu";
 import { Link } from "react-router";
+import { useState } from 'react'
 
 export default function Nav() {
+const [menuHidden, setMenuHidden] = useState(True)
+
+
   return (
     <nav className="fixed top-0 w-[100vw] shadow-lg bg-background z-10">
       <div className="flex justify-around text-text p-4 items-center">
